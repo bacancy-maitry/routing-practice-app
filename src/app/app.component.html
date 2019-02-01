@@ -1,0 +1,10 @@
+<div class="header">
+  <nav>
+    <a routerLink="/" [routerLinkActive]="['router-links', 'router-link-active']" [routerLinkActiveOptions]="{exact: true}"> Home </a> | 
+    <a routerLink="/departments" [routerLinkActive]="['router-links', 'router-link-active']"> Departments </a> | 
+    <a routerLink="/aboutus" [routerLinkActive]="['router-links', 'router-link-active']"> About Us </a> |
+    <a routerLink="/contactus" routerLinkActive="router-links router-link-active"> Contact Us </a> |
+  </nav>
+</div>
+
+<router-outlet></router-outlet>
