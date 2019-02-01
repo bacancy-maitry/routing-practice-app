@@ -15,8 +15,8 @@ export class BcaDepartmentComponent implements OnInit {
 
   goBack() {
     // this.router.navigate(['/','departments','mca','']);
-    this.router.navigateByUrl('/departments/mca/');
-    // this.router.navigateByUrl('/departments',{skipLocationChange:true});
+    // this.router.navigateByUrl('/departments/mca/');
+    this.router.navigateByUrl('/departments',{skipLocationChange:true});
   }
 
 }
